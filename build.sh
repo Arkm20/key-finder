@@ -12,6 +12,8 @@ python -m venv venv
 # Activate the virtual environment
 source venv/bin/activate
 
+pip install --upgrade wheel
+
 # Install dependencies
 pip install -r requirements.txt
 
